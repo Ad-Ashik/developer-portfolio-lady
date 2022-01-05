@@ -23,7 +23,7 @@ body{
     font-size: 20px;
     position: relative;
     top: 38px;
-    font-weight: normal;
+    font-weight: 100;
 }
 .lady-detials h3{
     color: #0fb;
@@ -40,7 +40,7 @@ body{
     top: -41px;
     color: white;
 }
-.lady-detials a{
+.lady-detials a,.lady-detials-about a{
     position: relative;
     top: -41px;
     background-image: linear-gradient(salmon,tomato);
@@ -50,9 +50,35 @@ body{
     border-radius: 50px;
     color: white;
 }
+.wia{
+    width: 55px;
+    height: 2px;
+    background-color: #0fb;
+    display: inline-block;
+    position: relative;
+    top: -3px;
+}
+.lady-detials-about h5{
+    position: relative;
+    top: 19px;
+    font-size: 15px;
+    color: #0fb;
+    font-weight: 100;
+}
 .lady-img{
     width: 80%;
 }
 .lady-detials-about{
-    
+    width: 29%;
+    margin-top: 4%;
+}
+.lady-detials-about h1,.lady-detials-about p{
+    color: white;
+}
+.lady-detials-about a{
+    position: relative;
+    top: 41px;
+}
+.lady-section-col{
+    padding-bottom: 160px;
 }
